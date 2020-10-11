@@ -18,6 +18,7 @@ if (!localStorage.tasksMade) {
 
 }
 else {
+  alert ('čus')
   localStorage.tasksMade ++
   localStorage.estimatedTime = eval (localStorage.estimatedTime + '+' + GetEstimatedTime() )
   var now = new Date();
